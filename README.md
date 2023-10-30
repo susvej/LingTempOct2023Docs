@@ -1,1 +1,0 @@
-# LingTempOct2023Docs
