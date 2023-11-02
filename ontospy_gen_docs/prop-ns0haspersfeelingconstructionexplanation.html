@@ -378,9 +378,9 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
           
               <li class="second-level" style="line-height: 20px;" id="sd_25"><a   href="prop-ns0haspersfeelingconstruction.html">ns0:hasPersFeelingConstruction</a></li>
           
-              <li class="second-level" style="line-height: 20px;" id="sd_18"><a   href="prop-ns0haspersfeelingconstructionexplanation.html">ns0:hasPersFeelingConstructionExplanation</a></li>
+              <li class="second-level" style="line-height: 20px;" id="sd_18"><a class="active"  href="prop-ns0haspersfeelingconstructionexplanation.html">ns0:hasPersFeelingConstructionExplanation</a></li>
           
-              <li class="second-level" style="line-height: 20px;" id="sd_19"><a class="active"  href="prop-ns0hassemanticbasicnessstatus.html">ns0:hasSemanticBasicnessStatus</a></li>
+              <li class="second-level" style="line-height: 20px;" id="sd_19"><a   href="prop-ns0hassemanticbasicnessstatus.html">ns0:hasSemanticBasicnessStatus</a></li>
           
               <li class="second-level" style="line-height: 20px;" id="sd_26"><a   href="prop-ns0hassemanticdomain.html">ns0:hasSemanticDomain</a></li>
           
@@ -548,7 +548,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
           <a href="entities-tree-properties.html">Properties</a>
     </li>
       <li class="active">
-            ns0:hasSemanticBasicnessStatus
+            ns0:hasPersFeelingConstructionExplanation
         </li>
   </ol>
 
@@ -572,7 +572,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
             <h1>
 
-                ns0:hasSemanticBasicnessStatus
+                ns0:hasPersFeelingConstructionExplanation
                 
                     <small class="label label-info label-xs ">leaf node</small>
                   
@@ -591,7 +591,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
                         <li><a href="entities-tree-properties.html">rdf:Property</a>
 
                           <ul>
-                            <li><a style="font-weight: bold;" title="'hasSemanticBasicnessStatus' -  Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown">ns0:hasSemanticBasicnessStatus</a>
+                            <li><a style="font-weight: bold;" title="'hasPersFeelingConstructionExplanation'">ns0:hasPersFeelingConstructionExplanation</a>
 
                             
                               </li>
@@ -615,7 +615,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
              </div>
              <div class="panel-body">
 
-                 <code>https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus</code>
+                 <code>https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation</code>
              </div>
            </div>
             </div></div>
@@ -630,7 +630,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
              </div>
              <div class="panel-body">
 
-                 hasSemanticBasicnessStatus
+                 hasPersFeelingConstructionExplanation
              </div>
            </div>
             </div></div>
@@ -638,18 +638,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
 
             
-            <div class="row"><div class="col-md-12">
-              <div class="panel panel-default">
-            <div class="panel-heading">
-              <h3 class="panel-title">Description</h3>
-            </div>
-            <div class="panel-body">
-
-                <p> Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown</p>
-            </div>
-          </div>
-           </div></div>
-           
 
 
 
@@ -676,12 +664,7 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
                      
                          
                          
-                              <a href="class-ns0temperaturelexeme.html" title="https://w3id.org/def/temp_ont/TemperatureLexeme">ns0:TemperatureLexeme</a>
-                           
-                           , 
-                         
-                         
-                              <a>Blank node</a> (see implementation)
+                              <a href="class-ns0persfeelingconstruction.html" title="https://w3id.org/def/temp_ont/PersFeelingConstruction">ns0:PersFeelingConstruction</a>
                            
                            
                          
@@ -689,12 +672,17 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
                    </td>
 
                     <td>
-                      ns0:hasSemanticBasicnessStatus
+                      ns0:hasPersFeelingConstructionExplanation
                     </td>
 
                     <td>
                       
-                          <a>owl:Thing</a> (inferred)
+                          
+                          
+                               <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">xsd:string</a>
+                             
+                            
+                          
                       
                     </td>
             </table>
@@ -715,15 +703,12 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 
                     <div class="highlight"><pre><span></span><span class="k">@prefix</span><span class="w"> </span><span class="nn">ns0:</span><span class="w"> </span><span class="nv">&lt;https://w3id.org/def/temp_ont/&gt;</span><span class="w"> </span><span class="p">.</span>
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">owl:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2002/07/owl#&gt;</span><span class="w"> </span><span class="p">.</span>
-<span class="k">@prefix</span><span class="w"> </span><span class="nn">rdf:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;</span><span class="w"> </span><span class="p">.</span>
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">rdfs:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2000/01/rdf-schema#&gt;</span><span class="w"> </span><span class="p">.</span>
 <span class="k">@prefix</span><span class="w"> </span><span class="nn">xsd:</span><span class="w"> </span><span class="nv">&lt;http://www.w3.org/2001/XMLSchema#&gt;</span><span class="w"> </span><span class="p">.</span>
 
-<span class="nn">ns0</span><span class="p">:</span><span class="nt">hasSemanticBasicnessStatus</span> <span class="kt">a</span> <span class="nn">owl</span><span class="p">:</span><span class="nt">DatatypeProperty</span> <span class="p">;</span>
-    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">comment</span> <span class="s">&quot; Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown&quot;</span> <span class="p">;</span>
-    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">domain</span> <span class="nn">ns0</span><span class="p">:</span><span class="nt">TemperatureLexeme</span> <span class="p">;</span>
-    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">range</span> <span class="p">[</span> <span class="kt">a</span> <span class="nn">rdfs</span><span class="p">:</span><span class="nt">Datatype</span> <span class="p">;</span>
-            <span class="nn">owl</span><span class="p">:</span><span class="nt">oneOf</span> <span class="p">(</span> <span class="s">&quot;yes&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">string</span> <span class="s">&quot;no&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">string</span> <span class="s">&quot;unknown&quot;</span><span class="p">^^</span><span class="nn">xsd</span><span class="p">:</span><span class="nt">string</span> <span class="p">)</span> <span class="p">]</span> <span class="p">.</span>
+<span class="nn">ns0</span><span class="p">:</span><span class="nt">hasPersFeelingConstructionExplanation</span> <span class="kt">a</span> <span class="nn">owl</span><span class="p">:</span><span class="nt">DatatypeProperty</span> <span class="p">;</span>
+    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">domain</span> <span class="nn">ns0</span><span class="p">:</span><span class="nt">PersFeelingConstruction</span> <span class="p">;</span>
+    <span class="nn">rdfs</span><span class="p">:</span><span class="nt">range</span> <span class="nn">xsd</span><span class="p">:</span><span class="nt">string</span> <span class="p">.</span>
 </pre></div>
 
 
@@ -823,7 +808,7 @@ $('#search-input-sidebar').keyup(function() {
 
     $(document).ready(function (){
       $('#sidebar-wrapper').animate({
-          scrollTop: $("#sd_19").offset().top - 100
+          scrollTop: $("#sd_18").offset().top - 100
       }, 100);
     });
 
