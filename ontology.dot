@@ -1,429 +1,262 @@
 digraph { 
  node [ fontname="DejaVu Sans" ] ; 
-	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node4 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node6 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node9 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node12 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node14 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node16 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:imports</font> > ] ;
-	node18 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node14 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node0 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node21 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node23 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node25 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node28 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node15 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node31 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node33 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
-	node34 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node5 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node2 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node8 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node5 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node3 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node6 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node10 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node17 -> node18 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
+	node12 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node19 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node20 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node21 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node11 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node25 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node1 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
+	node30 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node4 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node33 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node34 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node13 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node16 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node36 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node37 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node38 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node28 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node2 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
+	node40 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node41 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node42 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node43 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node39 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node44 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node40 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
 	node37 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node15 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node38 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node34 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node40 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node31 -> node41 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node8 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node29 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node43 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node44 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node24 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node45 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node46 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node31 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node47 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node48 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node37 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node49 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node10 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node28 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node31 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
+	node30 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node46 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node49 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node51 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node3 -> node37 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
+	node10 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:imports</font> > ] ;
+	node34 -> node54 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
+	node55 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:oneOf</font> > ] ;
+	node0 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node56 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node9 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
 	node40 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node9 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node18 -> node12 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node50 -> node51 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node11 -> node52 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
-	node54 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node50 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node55 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node46 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node56 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node57 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node9 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node1 -> node29 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
-	node50 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node59 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node47 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node56 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node43 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node41 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node10 -> node59 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:imports</font> > ] ;
+	node29 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node57 -> node60 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node35 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node24 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node48 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node18 -> node61 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
+	node33 -> node55 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node36 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node8 -> node62 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node23 -> node63 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
+	node41 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node24 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node60 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node3 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node56 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node6 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node16 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node16 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
 	node37 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node38 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node62 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node35 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node38 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node28 -> node51 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node63 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node13 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node63 -> node65 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node66 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node12 -> node67 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isLessColdThan</font> > ] ;
-	node41 -> node68 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
-	node69 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node50 -> node70 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isLessColdThan</font> > ] ;
-	node6 -> node4 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node71 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node72 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node73 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node15 -> node74 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node75 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node24 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node28 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node48 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node27 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node61 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node77 -> node75 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node12 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node48 -> node78 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreWarmThan</font> > ] ;
-	node10 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node23 -> node33 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
-	node64 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node6 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node28 -> node70 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isLessColdThan</font> > ] ;
-	node7 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node64 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node47 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node35 -> node79 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node3 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node81 -> node82 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node1 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node5 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node58 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node0 -> node27 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node28 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node83 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node2 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node72 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node33 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node23 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node84 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node31 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node48 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node12 -> node86 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node37 -> node44 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
-	node87 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node8 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node9 -> node88 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isLessWarmThan</font> > ] ;
-	node12 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node50 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node18 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node2 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node89 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node57 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node61 -> node90 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node40 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node3 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node92 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node9 -> node65 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMOreWarmThan</font> > ] ;
-	node6 -> node78 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isLessWarmThan</font> > ] ;
-	node45 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node89 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node20 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node0 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node83 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node92 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node35 -> node29 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node7 -> node93 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
-	node47 -> node81 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node55 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node72 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node6 -> node86 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreWarmThan</font> > ] ;
-	node46 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node9 -> node86 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreWarmThan</font> > ] ;
-	node73 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node55 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node94 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node0 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node19 -> node29 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> > ] ;
-	node46 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node60 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node50 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node8 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node6 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node95 -> node48 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node64 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node14 -> node49 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
-	node8 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node89 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node57 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node46 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node28 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node92 -> node75 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node16 -> node97 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:imports</font> > ] ;
-	node95 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node23 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node2 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node96 -> node46 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node83 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node8 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node33 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node98 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node94 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node34 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node10 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node8 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasTemperatureScaleType</font> > ] ;
-	node53 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node25 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node25 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node95 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node41 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node3 -> node99 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node81 -> node100 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:oneOf</font> > ] ;
-	node8 -> node101 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node16 -> node102 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node45 -> node76 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node31 -> node58 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:partOfTemperatureSystem</font> > ] ;
-	node19 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node14 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node48 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node44 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node80 -> node103 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
-	node94 -> node104 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
-	node9 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node36 -> node80 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
-	node12 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node61 -> node53 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node12 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node5 -> node12 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
+	node45 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node27 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
 	node33 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node44 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node46 -> node105 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:isMoreColdThan</font> > ] ;
-	node24 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node63 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node91 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node6 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node100 -> node36 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
-	node50 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node85 -> node75 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node49 -> node30 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node96 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node48 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node9 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node61 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node11 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node73 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-	node12 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasSemanticDomain</font> > ] ;
-	node49 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
-	node96 -> node32 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:hasLanguage</font> > ] ;
-	node50 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>ns0:containsWord</font> > ] ;
-	node106 -> node43 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
-# https://w3id.org/def/temp_ont/lex_tempsys_eng_01_03 node0
-node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>lukewarm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_eng_01_03' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_eng_01_03</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
+	node4 -> node65 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node64 -> node60 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node29 -> node66 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node60 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node25 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node4 -> node28 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node8 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node61 -> node67 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:rest</font> > ] ;
+	node50 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node0 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node60 -> node68 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node21 -> node26 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node25 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node21 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node12 -> node5 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
+	node29 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node11 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node5 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node45 -> node69 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
+	node70 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node36 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node14 -> node42 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node23 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node43 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node11 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node1 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node32 -> node35 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node3 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node30 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:inverseOf</font> > ] ;
+	node6 -> node31 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node53 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node71 -> node39 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node24 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:range</font> > ] ;
+	node56 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdfs:domain</font> > ] ;
+	node55 -> node72 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+# https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue node0
+node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureSystemCentralityValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature term is domain CENTRAL or domain PERIPHERAL&quot;</td></tr></table> > ] 
 # https://w3id.org/def/temp_ont/TemperatureLexeme node1
 node1 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Temperature Lexeme</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureLexeme' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureLexeme</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/swe_Example6 node2
-node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>swe_Example6</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/swe_Example6' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/swe_Example6</font></td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;It was cold outside.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;Det var kallt ute.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasWarmHotCollapse node3
-node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasWarmHotCollapse</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasWarmHotCollapse' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasWarmHotCollapse</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature system collapses two levels on the warmer scale (warm+cold in one), or if it keeps them separate (warm; cold). This can be either 1 (True, yes theere is a collapse) or 0 (False, there is no collapse)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth node4
-node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeWarmth</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A warm temperature scale type&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureScaleType node5
-node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_eng_01_01 node6
-node6 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>warm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_eng_01_01' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_eng_01_01</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_general node7
-node7 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_general</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_general' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_general</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;a non-domain specific temperatur&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_swe_01_02 node8
-node8 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>kall</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_swe_01_02' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_swe_01_02</font></td></tr><tr><td align='left'>ns0:hasComment</td><td align='left'>&quot;TBA&quot;</td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_swe_01_01 node9
-node9 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>varm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_swe_01_01' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_swe_01_01</font></td></tr><tr><td align='left'>ns0:hasComment</td><td align='left'>&quot;anything that is covered by ex:het is also covered by ex:varm, but some instances of thermal activity can be ex:varm but not ex:het, since ex:het requires a very hot state&quot;</td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/eng_Example2 node10
-node10 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>eng_Example2</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/eng_Example2' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/eng_Example2</font></td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;The water is warm.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_air node11
-node11 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_air</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_air' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_air</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to ai&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_eng_01_04 node12
-node12 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>cool</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_eng_01_04' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_eng_01_04</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness node13
-node13 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeColdness</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A cold temperature scale type &quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/isLessColdThan node14
-node14 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
-# http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech node15
-node15 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme has a partOfSpeech (note lower case p) property, importinh it from the lexinfo ontology. Very relevant subclasses of the class PartOfSpeech (note capital p) include /lexinfo#NounPOS, /lexinfo#VerbPOS, /lexinfo#AdjectivePOS&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont node16
-node16 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temp_ont</B></td></tr><tr><td href='https://w3id.org/def/temp_ont' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont</font></td></tr><tr><td align='left'>dc1:description</td><td align='left'>&quot;An ontology for capturing cross-linguistic temperature terms and their meanings.&quot;</td></tr><tr><td align='left'>dc1:title</td><td align='left'>&quot;The Linguistics of Temperature Terms Ontology&quot;</td></tr></table> > ] 
-# http://dbpedia.org/resource/ node17
-node17 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B></B></td></tr><tr><td href='http://dbpedia.org/resource/' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/eng_Example4 node18
-node18 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>eng_Example4</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/eng_Example4' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/eng_Example4</font></td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;The weather is cool.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/Example node19
-node19 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Example</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/Example' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/Example</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples of temperature terms in use. Examples are languages objects, and can thus be the Subjects of the hasLanguage property&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral node20
-node20 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeNeutral</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A neutral temperature scale type (e.g. lukewarm)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/SemanticDomain node21
-node21 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Semantic Domain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/SemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/SemanticDomain</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that TemperatureLexeme has a semantic domain&quot;</td></tr></table> > ] 
-# http://www.w3.org/2002/07/owl#Class node22
-node22 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Class</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Class' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Class</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/containsWord node23
-node23 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>containsWord</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/containsWord' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/containsWord</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples contain word&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/swe_Example3 node24
-node24 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>swe_Example3</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/swe_Example3' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/swe_Example3</font></td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;A slightly warm potato salad.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;En ljummen potatissallad.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/swe_Example1 node25
-node25 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>swe_Example1</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/swe_Example1' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/swe_Example1</font></td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;The kettle is hot when I touch it.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;Vattenkokaren är het när jag rör vid den&quot;</td></tr></table> > ] 
-# http://dbpedia.org/resource/Swedish node26
-node26 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Swedish</B></td></tr><tr><td href='http://dbpedia.org/resource/Swedish' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/Swedish</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/tempsys_eng_01 node27
-node27 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Basic English Temperature System</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/tempsys_eng_01' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/tempsys_eng_01</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_swe_01_03 node28
-node28 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>kylig</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_swe_01_03' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_swe_01_03</font></td></tr><tr><td align='left'>ns0:hasComment</td><td align='left'>&quot;ex:sval has a positive connotation, as opposed to ex:kylig which has a neutral to negative connotation.&quot;</td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/LanguageObject node29
-node29 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language Object</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/LanguageObject' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/LanguageObject</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Words, phrases, examples, texts, are language objects&quot;</td></tr></table> > ] 
-# http://www.w3.org/2002/07/owl#ObjectProperty node30
-node30 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ObjectProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#ObjectProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#ObjectProperty</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_swe_01_05 node31
-node31 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ljummen</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_swe_01_05' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_swe_01_05</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# http://dbpedia.org/resource/English node32
-node32 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>English</B></td></tr><tr><td href='http://dbpedia.org/resource/English' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/English</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/existsInExample node33
-node33 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>existsInExample</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/existsInExample' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/existsInExample</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasExampleText node34
-node34 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasExampleText</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasExampleText' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasExampleText</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation text&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasLanguage node35
-node35 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasLanguage</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasLanguage' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasLanguage</font></td></tr><tr><td align='left'>owl:maxCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme have languages, and that those languages are # subclasses of http://dbpedia.org/resource/Language&quot;</td></tr></table> > ] 
-# N3d12d7f9a07f44d095ffc435f6ff8eb4 node36
-node36 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N3d12d7f9a07f44d095ffc435f6ff8eb4</B></td></tr><tr><td href='N3d12d7f9a07f44d095ffc435f6ff8eb4' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N3d12d7f9a07f44d095ffc435f6ff8eb4</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;no&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/isLessWarmThan node37
-node37 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/eng_Example3 node38
-node38 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>eng_Example3</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/eng_Example3' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/eng_Example3</font></td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;The tea is lukewarm.&quot;</td></tr></table> > ] 
-# http://www.w3.org/2002/07/owl#DatatypeProperty node39
-node39 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>DatatypeProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#DatatypeProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#DatatypeProperty</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasTemperatureScaleType node40
-node40 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_water node41
-node41 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_water</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_water' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_water</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to wate&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/sval node42
-node42 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>sval</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/sval' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/sval</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction node43
-node43 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A kind of  morphosyntactic constructions from p 137 in Koptjevskaja-Tamm, M. (2022). Semantic maps and temperature: Capturing the lexicon-grammar interface across languages. Zeitschrift für Sprachwissenschaft, 41(1), 125-177. https://doi.org/10.1515/zfs-2021-2042&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/isMoreWarmThan node44
-node44 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasEnglishTranslation node45
-node45 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasEnglishTranslation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasEnglishTranslation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasEnglishTranslation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation into our business language, which is English&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_eng_01_05 node46
-node46 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>cold</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_eng_01_05' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_eng_01_05</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus node47
-node47 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticBasicnessStatus</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot; Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_eng_01_02 node48
-node48 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hot</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_eng_01_02' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_eng_01_02</font></td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/isMoreColdThan node49
-node49 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lex_tempsys_swe_01_04 node50
-node50 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>sval</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lex_tempsys_swe_01_04' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lex_tempsys_swe_01_04</font></td></tr><tr><td align='left'>ns0:hasComment</td><td align='left'>&quot;ex:sval has a positive connotation, as opposed to ex:kylig which has a neutral to negative connotation&quot;</td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;A cool, pleasant wind cooled us down.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;En sval bris svalkade oss.&quot;</td></tr><tr><td align='left'>ns0:hasSemanticBasicnessStatus</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/ljummen node51
-node51 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ljummen</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/ljummen' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/ljummen</font></td></tr></table> > ] 
-# http://purl.obolibrary.org/obo/ENVO_09200001 node52
-node52 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200001</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200001' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200001</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureSystem node53
-node53 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Temperature System</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystem</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;we can later define a particular system (eg ex:smith2001_1) as a subclass of # TemperatureSystem, like this: # ex:smith2001_1 a owl:Class ;   rdfs:subClassOf ex:TemperatureSystem . Here the class is just defined.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented node54
-node54 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasSemanticDomain node55
-node55 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticDomain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticDomain</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_ambient node56
-node56 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Ambient temperatures  relate to circumstances or places&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/swe_Example4 node57
-node57 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>swe_Example4</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/swe_Example4' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/swe_Example4</font></td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;The room felt cool.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;Rummet kändes kyligt.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/tempsys_swe_01 node58
-node58 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Basic Swedish Temperature System</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/tempsys_swe_01' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/tempsys_swe_01</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_Other node59
-node59 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_Other</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_Other</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_tactile node60
-node60 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_tactile</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_tactile' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_tactile</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Properties or states of particular concrete entities, carriers of properties, and align with property concepts in general (‘dark’, ‘big’, ‘sharp’, etc.)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasAdditionalTerms node61
-node61 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasAdditionalTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasAdditionalTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasAdditionalTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to provide a text (string) variable to enter any additional info on temperatures terms that are not important enough to get their own entry in the semantic database. English exampless might be “torrid, “steaming&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_ambient_QR node62
-node62 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_QR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_QR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_QR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/swe_Example2 node63
-node63 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>swe_Example2</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/swe_Example2' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/swe_Example2</font></td></tr><tr><td align='left'>ns0:hasEnglishTranslation</td><td align='left'>&quot;The water is warm.&quot;</td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;Vattnet är varmt.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasDerivation node64
-node64 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasDerivation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasDerivation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasDerivation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme can be derived from some other word&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/varm node65
-node65 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>varm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/varm' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/varm</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_ambient_NR node66
-node66 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_NR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_NR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_NR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential (NR) ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/cold node67
-node67 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>cold</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/cold' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/cold</font></td></tr></table> > ] 
-# http://purl.obolibrary.org/obo/ENVO_09200014 node68
-node68 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200014</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200014' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200014</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented node69
-node69 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/kall node70
-node70 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>kall</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/kall' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/kall</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/temperature_personalfeeling node71
-node71 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_personalfeeling</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_personalfeeling' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_personalfeeling</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Bodily sensations involving sentient, usually human experiencers, on a par with others, such as feeling hungry/thirsty, having pain etc. (Verhoeven 2007: 42–43). A person can feel hot or cold due to various reasons, which makes bodily sensations different from physical properties and states&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/partOfTemperatureSystem node72
-node72 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfTemperatureSystem</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/partOfTemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/partOfTemperatureSystem</font></td></tr><tr><td align='left'>owl:minCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;this defines that each ex:TemperatureLexeme has to be part of a temperature system. An example temperature system might be smith_2001_1 or smith_2001_2, here assuming that in the publication smith 2001 we found two different systems, thus giving us ex:smith_2001_1_varm ex:partOfTemperatureSystem smith_2001_1&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation node73
-node73 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstructionExplanation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation</font></td></tr></table> > ] 
-# http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech node74
-node74 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PartOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureSystemValue node75
-node75 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureSystemValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms or peripheral terms&quot;</td></tr></table> > ] 
-# http://www.w3.org/2001/XMLSchema#string node76
-node76 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>string</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#string' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#string</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureSystemCentral node77
-node77 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Central Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemCentral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemCentral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/warm node78
-node78 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>warm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/warm' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/warm</font></td></tr></table> > ] 
-# http://dbpedia.org/resource/Language node79
-node79 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language</B></td></tr><tr><td href='http://dbpedia.org/resource/Language' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/Language</font></td></tr></table> > ] 
-# Nf5144fc9dbed46af93a507a4de6a6bbf node80
-node80 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Nf5144fc9dbed46af93a507a4de6a6bbf</B></td></tr><tr><td href='Nf5144fc9dbed46af93a507a4de6a6bbf' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Nf5144fc9dbed46af93a507a4de6a6bbf</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;unknown&quot;^^xsd:string</td></tr></table> > ] 
-# N1deede4809d14a83934ae3f4bf1a0166 node81
-node81 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N1deede4809d14a83934ae3f4bf1a0166</B></td></tr><tr><td href='N1deede4809d14a83934ae3f4bf1a0166' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N1deede4809d14a83934ae3f4bf1a0166</font></td></tr></table> > ] 
-# http://www.w3.org/2000/01/rdf-schema#Datatype node82
-node82 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Datatype</B></td></tr><tr><td href='http://www.w3.org/2000/01/rdf-schema#Datatype' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2000/01/rdf-schema#Datatype</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasComment node83
-node83 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasComment</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasComment' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasComment</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;This is a temperature ontology specific comment, as opposed to the general rdfs:comment.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/POS_Other node84
-node84 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Oher POS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_Other</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;For each instance of OtherPOS Consider adding to the TemperatureLexeme&#x27;s rdfs:comment some text /rdfs:comment to add info on what this OtherPOS actually is&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/TemperatureSystemPeripheral node85
-node85 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Peripheral Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemPeripheral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemPeripheral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Peripheral terms&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/lukewarm node86
-node86 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>lukewarm</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/lukewarm' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/lukewarm</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented node87
-node87 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/het node88
-node88 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>het</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/het' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/het</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasPersFeelingConstruction node89
-node89 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstruction</font></td></tr></table> > ] 
-# http://www.w3.org/2002/07/owl#AnnotationProperty node90
-node90 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AnnotationProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#AnnotationProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#AnnotationProperty</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/POS_StateVerb node91
-node91 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>StateVerbPOS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_StateVerb' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_StateVerb</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;the lexinfo ontology does not define State verbs, nor does it have a general “other POS” option, so we add those her&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue node92
-node92 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureSystemCentralityValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature term is domain CENTRAL or domain PERIPHERAL&quot;</td></tr></table> > ] 
-# http://purl.obolibrary.org/obo/PATO_0000146 node93
-node93 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PATO_0000146</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/PATO_0000146' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/PATO_0000146</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms node94
-node94 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasNumberOfCentralSystemTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to record the number of system central terms that a particular system has&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/eng_Example1 node95
-node95 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>eng_Example1</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/eng_Example1' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/eng_Example1</font></td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;It&#x27;s very hot outside.&quot;</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/eng_Example5 node96
-node96 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>eng_Example5</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/eng_Example5' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/eng_Example5</font></td></tr><tr><td align='left'>ns0:hasExampleText</td><td align='left'>&quot;It&#x27;s freezing cold outside.&quot;</td></tr></table> > ] 
-# http://www.lexinfo.net/ontology/3.0# node97
-node97 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>http://www.lexinfo.net/ontology/3.0#</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0#' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0#</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented node98
-node98 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented</font></td></tr></table> > ] 
-# http://www.w3.org/2001/XMLSchema#boolean node99
-node99 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>boolean</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#boolean' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#boolean</font></td></tr></table> > ] 
-# Nb98006b0ebff4ee59684aa0bc20ea2f9 node100
-node100 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Nb98006b0ebff4ee59684aa0bc20ea2f9</B></td></tr><tr><td href='Nb98006b0ebff4ee59684aa0bc20ea2f9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Nb98006b0ebff4ee59684aa0bc20ea2f9</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/kylig node101
-node101 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>kylig</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/kylig' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/kylig</font></td></tr></table> > ] 
-# http://www.w3.org/2002/07/owl#Ontology node102
-node102 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ontology</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Ontology' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Ontology</font></td></tr></table> > ] 
-# http://www.w3.org/1999/02/22-rdf-syntax-ns#nil node103
-node103 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>nil</B></td></tr><tr><td href='http://www.w3.org/1999/02/22-rdf-syntax-ns#nil' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/1999/02/22-rdf-syntax-ns#nil</font></td></tr></table> > ] 
-# http://www.w3.org/2001/XMLSchema#integer node104
-node104 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>integer</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#integer' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#integer</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/cool node105
-node105 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>cool</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/cool' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/cool</font></td></tr></table> > ] 
-# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented node106
-node106 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/Example node2
+node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Example</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/Example' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/Example</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples of temperature terms in use. Examples are languages objects, and can thus be the Subjects of the hasLanguage property&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/isLessWarmThan node3
+node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasLanguage node4
+node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasLanguage</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasLanguage' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasLanguage</font></td></tr><tr><td align='left'>owl:maxCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme have languages, and that those languages are # subclasses of http://dbpedia.org/resource/Language&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/existsInExample node5
+node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>existsInExample</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/existsInExample' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/existsInExample</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/isMoreColdThan node6
+node6 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#Class node7
+node7 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Class</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Class' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Class</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms node8
+node8 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasNumberOfCentralSystemTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to record the number of system central terms that a particular system has&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureSystem node9
+node9 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Temperature System</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystem</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;we can later define a particular system (eg ex:smith2001_1) as a subclass of # TemperatureSystem, like this: # ex:smith2001_1 a owl:Class ;   rdfs:subClassOf ex:TemperatureSystem . Here the class is just defined.&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont node10
+node10 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temp_ont</B></td></tr><tr><td href='https://w3id.org/def/temp_ont' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont</font></td></tr><tr><td align='left'>dc1:description</td><td align='left'>&quot;An ontology for capturing cross-linguistic temperature terms and their meanings.&quot;</td></tr><tr><td align='left'>dc1:title</td><td align='left'>&quot;The Linguistics of Temperature Terms Ontology&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/partOfTemperatureSystem node11
+node11 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfTemperatureSystem</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/partOfTemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/partOfTemperatureSystem</font></td></tr><tr><td align='left'>owl:minCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;this defines that each ex:TemperatureLexeme has to be part of a temperature system. An example temperature system might be smith_2001_1 or smith_2001_2, here assuming that in the publication smith 2001 we found two different systems, thus giving us ex:smith_2001_1_varm ex:partOfTemperatureSystem smith_2001_1&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/containsWord node12
+node12 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>containsWord</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/containsWord' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/containsWord</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples contain word&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth node13
+node13 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeWarmth</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A warm temperature scale type&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureSystemCentral node14
+node14 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Central Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemCentral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemCentral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms&quot;</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#Ontology node15
+node15 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ontology</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Ontology' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Ontology</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasTemperatureScaleType node16
+node16 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> > ] 
+# Ncedec1da52584f2e91515c6deb209ba0 node17
+node17 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ncedec1da52584f2e91515c6deb209ba0</B></td></tr><tr><td href='Ncedec1da52584f2e91515c6deb209ba0' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Ncedec1da52584f2e91515c6deb209ba0</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> > ] 
+# Ndeb4683ce3954e688ba05cb38e89c664 node18
+node18 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ndeb4683ce3954e688ba05cb38e89c664</B></td></tr><tr><td href='Ndeb4683ce3954e688ba05cb38e89c664' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Ndeb4683ce3954e688ba05cb38e89c664</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;no&quot;^^xsd:string</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_personalfeeling node19
+node19 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_personalfeeling</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_personalfeeling' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_personalfeeling</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Bodily sensations involving sentient, usually human experiencers, on a par with others, such as feeling hungry/thirsty, having pain etc. (Verhoeven 2007: 42–43). A person can feel hot or cold due to various reasons, which makes bodily sensations different from physical properties and states&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/SemanticDomain node20
+node20 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Semantic Domain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/SemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/SemanticDomain</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that TemperatureLexeme has a semantic domain&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasEnglishTranslation node21
+node21 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasEnglishTranslation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasEnglishTranslation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasEnglishTranslation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation into our business language, which is English&quot;</td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#string node22
+node22 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>string</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#string' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#string</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_air node23
+node23 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_air</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_air' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_air</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to ai&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasDerivation node24
+node24 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasDerivation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasDerivation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasDerivation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme can be derived from some other word&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation node25
+node25 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstructionExplanation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation</font></td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#DatatypeProperty node26
+node26 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>DatatypeProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#DatatypeProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#DatatypeProperty</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureSystemPeripheral node27
+node27 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Peripheral Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemPeripheral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemPeripheral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Peripheral terms&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/LanguageObject node28
+node28 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language Object</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/LanguageObject' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/LanguageObject</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Words, phrases, examples, texts, are language objects&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasWarmHotCollapse node29
+node29 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasWarmHotCollapse</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasWarmHotCollapse' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasWarmHotCollapse</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature system collapses two levels on the warmer scale (warm+cold in one), or if it keeps them separate (warm; cold). This can be either 1 (True, yes theere is a collapse) or 0 (False, there is no collapse)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/isLessColdThan node30
+node30 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#ObjectProperty node31
+node31 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ObjectProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#ObjectProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#ObjectProperty</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral node32
+node32 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeNeutral</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A neutral temperature scale type (e.g. lukewarm)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus node33
+node33 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticBasicnessStatus</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot; Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_water node34
+node34 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_water</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_water' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_water</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to wate&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureScaleType node35
+node35 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasExampleText node36
+node36 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasExampleText</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasExampleText' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasExampleText</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation text&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/isMoreWarmThan node37
+node37 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented node38
+node38 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction node39
+node39 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A kind of  morphosyntactic constructions from p 137 in Koptjevskaja-Tamm, M. (2022). Semantic maps and temperature: Capturing the lexicon-grammar interface across languages. Zeitschrift für Sprachwissenschaft, 41(1), 125-177. https://doi.org/10.1515/zfs-2021-2042&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasSemanticDomain node40
+node40 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticDomain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticDomain</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasPersFeelingConstruction node41
+node41 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstruction</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureSystemValue node42
+node42 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureSystemValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms or peripheral terms&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasComment node43
+node43 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasComment</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasComment' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasComment</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;This is a temperature ontology specific comment, as opposed to the general rdfs:comment.&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_Other node44
+node44 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_Other</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_Other</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_general node45
+node45 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_general</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_general' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_general</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;a non-domain specific temperatur&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness node46
+node46 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeColdness</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A cold temperature scale type &quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_tactile node47
+node47 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_tactile</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_tactile' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_tactile</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Properties or states of particular concrete entities, carriers of properties, and align with property concepts in general (‘dark’, ‘big’, ‘sharp’, etc.)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_ambient_QR node48
+node48 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_QR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_QR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_QR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented node49
+node49 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_ambient_NR node50
+node50 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_NR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_NR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_NR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential (NR) ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented node51
+node51 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</font></td></tr></table> > ] 
+# http://www.lexinfo.net/ontology/3.0# node52
+node52 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>http://www.lexinfo.net/ontology/3.0#</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0#' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0#</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/temperature_ambient node53
+node53 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Ambient temperatures  relate to circumstances or places&quot;</td></tr></table> > ] 
+# http://purl.obolibrary.org/obo/ENVO_09200014 node54
+node54 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200014</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200014' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200014</font></td></tr></table> > ] 
+# N68d88d1fdf124c9498e9d5c82b8ff4dc node55
+node55 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N68d88d1fdf124c9498e9d5c82b8ff4dc</B></td></tr><tr><td href='N68d88d1fdf124c9498e9d5c82b8ff4dc' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N68d88d1fdf124c9498e9d5c82b8ff4dc</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/hasAdditionalTerms node56
+node56 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasAdditionalTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasAdditionalTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasAdditionalTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to provide a text (string) variable to enter any additional info on temperatures terms that are not important enough to get their own entry in the semantic database. English exampless might be “torrid, “steaming&quot;</td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/POS_Other node57
+node57 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Oher POS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_Other</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;For each instance of OtherPOS Consider adding to the TemperatureLexeme&#x27;s rdfs:comment some text /rdfs:comment to add info on what this OtherPOS actually is&quot;</td></tr></table> > ] 
+# http://www.w3.org/2002/07/owl#AnnotationProperty node58
+node58 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AnnotationProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#AnnotationProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#AnnotationProperty</font></td></tr></table> > ] 
+# http://dbpedia.org/resource/ node59
+node59 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>http://dbpedia.org/resource/</B></td></tr><tr><td href='http://dbpedia.org/resource/' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/</font></td></tr></table> > ] 
+# http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech node60
+node60 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme has a partOfSpeech (note lower case p) property, importinh it from the lexinfo ontology. Very relevant subclasses of the class PartOfSpeech (note capital p) include /lexinfo#NounPOS, /lexinfo#VerbPOS, /lexinfo#AdjectivePOS&quot;</td></tr></table> > ] 
+# N5051c46eefbe403f993a6f65f97cfa05 node61
+node61 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N5051c46eefbe403f993a6f65f97cfa05</B></td></tr><tr><td href='N5051c46eefbe403f993a6f65f97cfa05' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N5051c46eefbe403f993a6f65f97cfa05</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;unknown&quot;^^xsd:string</td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#integer node62
+node62 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>integer</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#integer' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#integer</font></td></tr></table> > ] 
+# http://purl.obolibrary.org/obo/ENVO_09200001 node63
+node63 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200001</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200001' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200001</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/POS_StateVerb node64
+node64 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>StateVerbPOS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_StateVerb' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_StateVerb</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;the lexinfo ontology does not define State verbs, nor does it have a general “other POS” option, so we add those her&quot;</td></tr></table> > ] 
+# http://dbpedia.org/resource/Language node65
+node65 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language</B></td></tr><tr><td href='http://dbpedia.org/resource/Language' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/Language</font></td></tr></table> > ] 
+# http://www.w3.org/2001/XMLSchema#boolean node66
+node66 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>boolean</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#boolean' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#boolean</font></td></tr></table> > ] 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#nil node67
+node67 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>nil</B></td></tr><tr><td href='http://www.w3.org/1999/02/22-rdf-syntax-ns#nil' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/1999/02/22-rdf-syntax-ns#nil</font></td></tr></table> > ] 
+# http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech node68
+node68 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PartOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech</font></td></tr></table> > ] 
+# http://purl.obolibrary.org/obo/PATO_0000146 node69
+node69 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PATO_0000146</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/PATO_0000146' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/PATO_0000146</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented node70
+node70 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</font></td></tr></table> > ] 
+# https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented node71
+node71 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented</font></td></tr></table> > ] 
+# http://www.w3.org/2000/01/rdf-schema#Datatype node72
+node72 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Datatype</B></td></tr><tr><td href='http://www.w3.org/2000/01/rdf-schema#Datatype' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2000/01/rdf-schema#Datatype</font></td></tr></table> > ] 
 }

@@ -1,0 +1,944 @@
+digraph G {
+	graph [bb="0,0,41652,982",
+		nodesep=0.5,
+		rankdir=TB,
+		ranksep=1.0,
+		ratio=auto,
+		size="8.5,11"
+	];
+	node [fontname="DejaVu Sans",
+		label="\N"
+	];
+	node5	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>existsInExample</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/existsInExample' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/existsInExample</font></td></tr></table> >,
+		pos="17212,941",
+		shape=none,
+		width=4.0694];
+	node1	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Temperature Lexeme</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureLexeme' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureLexeme</font></td></tr></table> >,
+		pos="20410,612.5",
+		shape=none,
+		width=4.2361];
+	node5 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="18009,772",
+		pos="e,20257,614.64 17358,938.12 17503,930.66 17728,903.67 17900,813 17945,789.03 17938,759.72 17980,731 18029,698.28 18044,692.39 18102,\
+680 18309,634.92 19755,618.9 20247,614.72"];
+	node2	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Example</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/Example' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/Example</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples of temperature terms in use. Examples are languages objects, and can thus be the Subjects of the hasLanguage property&quot;</td></tr></table> >,
+		pos="26240,612.5",
+		shape=none,
+		width=16.431];
+	node5 -> node2	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="26544,772",
+		pos="e,26381,644.08 17358,924.8 17451,915.81 17575,905.2 17684,900 18761,848.9 21456,859.55 22534,849 22589,848.46 26463,852.15 26502,\
+813 26527,787.11 26521,761.59 26502,731 26476,691.63 26434,665.32 26391,647.8"];
+	node12	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>containsWord</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/containsWord' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/containsWord</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Examples contain word&quot;</td></tr></table> >,
+		pos="17724,772",
+		shape=none,
+		width=4.3889];
+	node5 -> node12	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:inverseOf</font> >,
+		lp="17133,856.5",
+		pos="e,17599,803.52 17153,918.92 17115,901.7 17075,875.88 17100,849 17133,812.38 17497,820.51 17546,813 17560,810.9 17575,808.33 17589,\
+805.51"];
+	node31	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ObjectProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#ObjectProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#ObjectProperty</font></td></tr></table> >,
+		pos="17322,612.5",
+		shape=none,
+		width=3.9861];
+	node5 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="15976,772",
+		pos="e,17179,615.11 17065,935.99 16749,925.86 16029,894.01 15956,813 15931,785.96 15931,757.85 15956,731 16036,643.07 16828,620.8 17169,\
+615.28"];
+	node7	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Class</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Class' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Class</font></td></tr></table> >,
+		pos="23206,312.5",
+		shape=none,
+		width=3.2361];
+	node1 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="21134,462.5",
+		pos="e,23089,317.06 20474,590.4 20597,551.27 20874,468.1 21114,431 21496,371.85 22686,329.9 23079,317.38"];
+	node28	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language Object</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/LanguageObject' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/LanguageObject</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Words, phrases, examples, texts, are language objects&quot;</td></tr></table> >,
+		pos="21462,462.5",
+		shape=none,
+		width=8.0556];
+	node1 -> node28	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> >,
+		lp="21005,537.5",
+		pos="e,21245,494.07 20559,590.49 20735,565.71 21030,524.25 21235,495.47"];
+	node2 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="25045,462.5",
+		pos="e,23322,324.97 25929,580.97 25274,516.68 23777,369.63 23332,325.95"];
+	node2 -> node28	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:subClassOf</font> >,
+		lp="24031,537.5",
+		pos="e,21753,472.49 25648,593.17 24619,561.31 22538,496.83 21763,472.8"];
+	node8	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasNumberOfCentralSystemTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasNumberOfCentralSystemTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to record the number of system central terms that a particular system has&quot;</td></tr></table> >,
+		pos="33936,772",
+		shape=none,
+		width=11.264];
+	node9	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Temperature System</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystem</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;we can later define a particular system (eg ex:smith2001_1) as a subclass of # TemperatureSystem, like this: # ex:smith2001_1 a owl:Class ;   rdfs:subClassOf ex:TemperatureSystem . Here the class is just defined.&quot;</td></tr></table> >,
+		pos="32506,612.5",
+		shape=none,
+		width=26.278];
+	node8 -> node9	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="33250,687.5",
+		pos="e,32784,644.02 33660,740.49 33410,713.05 33046,672.91 32794,645.13"];
+	node26	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>DatatypeProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#DatatypeProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#DatatypeProperty</font></td></tr></table> >,
+		pos="30106,612.5",
+		shape=none,
+		width=4.1528];
+	node8 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="32624,687.5",
+		pos="e,30256,623.49 33635,740.49 33594,736.93 33552,733.64 33512,731 33440,726.16 32274,682.25 32202,680 31506,658.48 31332,671.99 30636,\
+644 30512,638.99 30371,630.77 30266,624.12"];
+	node62	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>integer</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#integer' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#integer</font></td></tr></table> >,
+		pos="33936,612.5",
+		shape=none,
+		width=3.6528];
+	node8 -> node62	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="33961,687.5",
+		pos="e,33936,634.6 33936,740.26 33936,712.76 33936,672.62 33936,644.91"];
+	node9 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="31171,462.5",
+		pos="e,23322,314.18 31560,582.51 31392,573 31256,560.7 31216,545 31141,516.18 31151,458.45 31076,431 30886,361.9 24330,320.19 23332,314.24"];
+	node3	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> >,
+		pos="18718,941",
+		shape=none,
+		width=28.222];
+	node3 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="20354,772",
+		pos="e,20372,634.64 19515,909.5 19895,893.55 20273,875.09 20292,864 20314,850.4 20314,838.15 20322,813 20330,784.68 20316,706.42 20330,\
+680 20337,664.52 20351,651.3 20364,640.81"];
+	node3 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="20288,772",
+		pos="e,20378,634.57 19391,909.5 19752,888.39 20137,856.26 20210,813 20247,790.69 20236,764.56 20264,731 20284,705.86 20291,700.9 20316,\
+680 20333,666.17 20352,652.06 20369,640.42"];
+	node3 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="17185,772",
+		pos="e,17274,634.65 18115,909.49 17693,885.09 17198,849.11 17164,813 17140,786.2 17148,763.56 17164,731 17185,689.47 17229,658.9 17265,\
+639.38"];
+	node37	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreWarmThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreWarmThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreWarmThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> >,
+		pos="19176,772",
+		shape=none,
+		width=28.222];
+	node3 -> node37	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:inverseOf</font> >,
+		lp="18995,856.5",
+		pos="e,19092,803.61 18802,909.47 18881,880.54 19000,837.17 19082,807.12"];
+	node6	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isMoreColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isMoreColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isMoreColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> >,
+		pos="24522,772",
+		shape=none,
+		width=28.222];
+	node6 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="23695,687.5",
+		pos="e,20562,613.59 24214,740.48 23995,719.89 23692,694.01 23426,680 22337,622.87 21025,614.68 20572,613.61"];
+	node6 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="22496,687.5",
+		pos="e,20562,619.31 23733,740.5 23650,737.28 23566,734.07 23486,731 22372,688.19 21031,637.14 20572,619.69"];
+	node6 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="20508,687.5",
+		pos="e,17419,634.57 23796,740.5 23692,736.85 23586,733.53 23486,731 22820,714.13 21152,751.66 20488,695 20445,691.4 20436,683.6 20394,\
+680 19749,624.9 18127,708.43 17484,644 17466,642.22 17447,639.47 17429,636.34"];
+	node10	[color=black,
+		height=1.1389,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temp_ont</B></td></tr><tr><td href='https://w3id.org/def/temp_ont' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont</font></td></tr><tr><td align='left'>dc1:description</td><td align='left'>&quot;An ontology for capturing cross-linguistic temperature terms and their meanings.&quot;</td></tr><tr><td align='left'>dc1:title</td><td align='left'>&quot;The Linguistics of Temperature Terms Ontology&quot;</td></tr></table> >,
+		pos="41202,941",
+		shape=none,
+		width=11.486];
+	node15	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ontology</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#Ontology' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#Ontology</font></td></tr></table> >,
+		pos="40880,772",
+		shape=none,
+		width=3.4861];
+	node10 -> node15	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="41072,856.5",
+		pos="e,40921,794.09 41125,900 41065,868.59 40982,825.8 40930,798.78"];
+	node52	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>http://www.lexinfo.net/ontology/3.0#</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0#' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0#</font></td></tr></table> >,
+		pos="41202,772",
+		shape=none,
+		width=4.4444];
+	node10 -> node52	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:imports</font> >,
+		lp="41232,856.5",
+		pos="e,41202,794.33 41202,900 41202,870.69 41202,831.47 41202,804.41"];
+	node59	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>http://dbpedia.org/resource/</B></td></tr><tr><td href='http://dbpedia.org/resource/' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/</font></td></tr></table> >,
+		pos="41526,772",
+		shape=none,
+		width=3.5278];
+	node10 -> node59	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:imports</font> >,
+		lp="41404,856.5",
+		pos="e,41485,794.09 41280,900 41341,868.59 41423,825.8 41476,798.78"];
+	node17	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ncedec1da52584f2e91515c6deb209ba0</B></td></tr><tr><td href='Ncedec1da52584f2e91515c6deb209ba0' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Ncedec1da52584f2e91515c6deb209ba0</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;yes&quot;^^xsd:string</td></tr></table> >,
+		pos="31468,462.5",
+		shape=none,
+		width=4.0972];
+	node18	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Ndeb4683ce3954e688ba05cb38e89c664</B></td></tr><tr><td href='Ndeb4683ce3954e688ba05cb38e89c664' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>Ndeb4683ce3954e688ba05cb38e89c664</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;no&quot;^^xsd:string</td></tr></table> >,
+		pos="31748,312.5",
+		shape=none,
+		width=4.0972];
+	node17 -> node18	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:rest</font> >,
+		lp="31636,387.5",
+		pos="e,31691,344.13 31527,430.83 31572,406.97 31634,373.83 31682,348.85"];
+	node61	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N5051c46eefbe403f993a6f65f97cfa05</B></td></tr><tr><td href='N5051c46eefbe403f993a6f65f97cfa05' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N5051c46eefbe403f993a6f65f97cfa05</font></td></tr><tr><td align='left'>rdf:first</td><td align='left'>&quot;unknown&quot;^^xsd:string</td></tr></table> >,
+		pos="31748,162.5",
+		shape=none,
+		width=4.0972];
+	node18 -> node61	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:rest</font> >,
+		lp="31767,237.5",
+		pos="e,31748,194.13 31748,280.83 31748,258.71 31748,228.6 31748,204.42"];
+	node12 -> node5	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:inverseOf</font> >,
+		lp="17517,856.5",
+		pos="e,17276,918.93 17630,803.63 17531,835.93 17377,886.14 17286,915.78"];
+	node12 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="17901,687.5",
+		pos="e,20257,613.03 17769,740.43 17806,716.57 17854,686.44 17876,680 18103,614.6 19723,612.08 20247,613.01"];
+	node12 -> node2	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="23261,687.5",
+		pos="e,25648,627.53 17848,740.48 17868,736.58 17889,733.19 17908,731 18164,702.72 22273,698.82 22530,695 23116,686.27 24746,648.72 25637,\
+627.76"];
+	node12 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="17421,687.5",
+		pos="e,17337,634.51 17590,740.4 17503,720.4 17405,697.52 17400,695 17378,682.06 17358,660.52 17343,642.83"];
+	node19	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_personalfeeling</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_personalfeeling' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_personalfeeling</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Bodily sensations involving sentient, usually human experiencers, on a par with others, such as feeling hungry/thirsty, having pain etc. (Verhoeven 2007: 42–43). A person can feel hot or cold due to various reasons, which makes bodily sensations different from physical properties and states&quot;</td></tr></table> >,
+		pos="6792.5,772",
+		shape=none,
+		width=35.333];
+	node20	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Semantic Domain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/SemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/SemanticDomain</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that TemperatureLexeme has a semantic domain&quot;</td></tr></table> >,
+		pos="7795.5,612.5",
+		shape=none,
+		width=7.9444];
+	node19 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="7375,687.5",
+		pos="e,7600.9,644.05 6986.8,740.49 7160.5,713.21 7414.2,673.37 7591,645.62"];
+	node20 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="17053,462.5",
+		pos="e,23089,315.76 8081.6,605.97 10065,567.61 21731,342 23079,315.95"];
+	node21	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasEnglishTranslation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasEnglishTranslation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasEnglishTranslation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation into our business language, which is English&quot;</td></tr></table> >,
+		pos="28238,772",
+		shape=none,
+		width=10.583];
+	node21 -> node2	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="27142,687.5",
+		pos="e,26533,644.03 27951,740.48 27913,736.99 27875,733.72 27838,731 27517,706.9 27435,717.98 27114,695 26923,681.43 26711,661.68 26543,\
+645.02"];
+	node22	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>string</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#string' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#string</font></td></tr></table> >,
+		pos="28304,612.5",
+		shape=none,
+		width=3.5694];
+	node21 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="28298,687.5",
+		pos="e,28294,634.65 28249,740.1 28256,722.42 28265,699.87 28274,680 28279,668.18 28284,655.3 28289,644.05"];
+	node21 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="29223,687.5",
+		pos="e,29957,624.45 28535,740.5 28569,737.19 28604,733.96 28636,731 29113,688.1 29677,645.25 29947,625.21"];
+	node11	[color=black,
+		height=1.1389,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfTemperatureSystem</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/partOfTemperatureSystem' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/partOfTemperatureSystem</font></td></tr><tr><td align='left'>owl:minCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;this defines that each ex:TemperatureLexeme has to be part of a temperature system. An example temperature system might be smith_2001_1 or smith_2001_2, here assuming that in the publication smith 2001 we found two different systems, thus giving us ex:smith_2001_1_varm ex:partOfTemperatureSystem smith_2001_1&quot;</td></tr></table> >,
+		pos="22098,772",
+		shape=none,
+		width=38.069];
+	node11 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="21283,687.5",
+		pos="e,20562,627.72 21669,730.98 21312,697.67 20823,652.06 20572,628.68"];
+	node11 -> node9	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="29565,687.5",
+		pos="e,31560,638.17 23469,731.32 23475,731.21 23481,731.11 23488,731 26049,686.12 26691,769.66 29252,695 29381,691.27 29412,684.63 29540,\
+680 30329,651.49 30526,662.09 31314,644 31391,642.24 31470,640.36 31550,638.42"];
+	node11 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="20364,687.5",
+		pos="e,17419,634.53 21205,730.99 20721,709.84 20175,686.87 19932,680 19388,664.58 18025,698.86 17484,644 17466,642.2 17447,639.44 17429,\
+636.31"];
+	node25	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstructionExplanation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstructionExplanation</font></td></tr></table> >,
+		pos="33282,772",
+		shape=none,
+		width=5.9028];
+	node25 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="28688,687.5",
+		pos="e,28427,634.55 33182,749.99 33142,742.46 33095,734.89 33052,731 32809,709.13 28903,739.48 28664,695 28645,691.54 28642,685.28 28624,\
+680 28563,662.47 28495,647.63 28437,636.45"];
+	node25 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="30876,687.5",
+		pos="e,30256,633.87 33181,749.96 33141,742.53 33094,735.03 33052,731 32566,685.23 31343,725.43 30856,695 30652,682.26 30418,654.74 30266,\
+635.21"];
+	node39	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A kind of  morphosyntactic constructions from p 137 in Koptjevskaja-Tamm, M. (2022). Semantic maps and temperature: Capturing the lexicon-grammar interface across languages. Zeitschrift für Sprachwissenschaft, 41(1), 125-177. https://doi.org/10.1515/zfs-2021-2042&quot;</td></tr></table> >,
+		pos="37488,612.5",
+		shape=none,
+		width=32.125];
+	node25 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="35036,687.5",
+		pos="e,36332,643.65 33385,749.98 33425,742.68 33470,735.25 33512,731 33651,716.95 35199,673.83 36322,643.93"];
+	node28 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="22407,387.5",
+		pos="e,23089,323.41 21753,436.85 22138,404.13 22802,347.76 23079,324.26"];
+	node30	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>isLessColdThan</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/isLessColdThan' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/isLessColdThan</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme also have relative temperatures to each other. # Note that the inverse relationship means we do not at first have to  # mark both relationships when we add data - a reasoner can do that  # automatically for us&quot;</td></tr></table> >,
+		pos="20786,941",
+		shape=none,
+		width=28.222];
+	node30 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="20565,772",
+		pos="e,20443,634.54 20701,909.34 20671,896.91 20636,881.37 20606,864 20574,845.3 20563,842.82 20540,813 20503,762.21 20527,731.34 20490,\
+680 20480,665.04 20465,651.52 20451,640.64"];
+	node30 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="20681,772",
+		pos="e,20540,634.57 20743,909.33 20714,886.07 20676,851.58 20652,813 20621,760.43 20658,724.26 20616,680 20598,661.25 20574,647.77 20550,\
+638.1"];
+	node30 -> node6	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:inverseOf</font> >,
+		lp="22800,856.5",
+		pos="e,23839,803.52 21469,909.49 22139,879.54 23155,834.09 23829,803.98"];
+	node30 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="18121,772",
+		pos="e,17424,634.52 20237,909.47 19892,890.83 19439,867.16 19038,849 18933,844.29 18192,862.66 18100,813 18061,791.72 18077,759.7 18042,\
+731 18002,696.88 17986,693.67 17934,680 17740,628.22 17683,670.75 17484,644 17468,641.87 17451,639.2 17435,636.33"];
+	node4	[color=black,
+		height=1.1389,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasLanguage</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasLanguage' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasLanguage</font></td></tr><tr><td align='left'>owl:maxCardinality</td><td align='left'>&quot;1&quot;^^xsd:integer</td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme have languages, and that those languages are # subclasses of http://dbpedia.org/resource/Language&quot;</td></tr></table> >,
+		pos="12494,772",
+		shape=none,
+		width=17.681];
+	node4 -> node28	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="14511,612.5",
+		pos="e,21172,493.49 12825,730.97 13219,685.25 13898,612.69 14482,581 17444,420.45 18197,663.63 21162,494.06"];
+	node4 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="15300,687.5",
+		pos="e,17179,618.65 13131,731.73 13137,731.48 13143,731.24 13148,731 13880,700.65 14064,714.8 14796,695 15695,670.66 16775,633.03 17169,\
+619.01"];
+	node65	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Language</B></td></tr><tr><td href='http://dbpedia.org/resource/Language' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://dbpedia.org/resource/Language</font></td></tr></table> >,
+		pos="12494,612.5",
+		shape=none,
+		width=3.3194];
+	node4 -> node65	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="12519,687.5",
+		pos="e,12494,634.71 12494,730.85 12494,704.17 12494,669.65 12494,644.96"];
+	node33	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticBasicnessStatus</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticBasicnessStatus</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot; Each TemperatureLexeme has a BasicnessStatus (is it a basic temperature term?), which can be one of yes no unknown&quot;</td></tr></table> >,
+		pos="30106,772",
+		shape=none,
+		width=15.167];
+	node33 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="27353,687.5",
+		pos="e,20562,614.26 29715,740.48 29657,736.77 29597,733.44 29542,731 29295,720.3 27567,739.95 27324,695 27305,691.46 27303,683.48 27284,\
+680 27113,648.96 21596,619.52 20572,614.31"];
+	node33 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="30127,687.5",
+		pos="e,30106,634.6 30106,740.26 30106,712.76 30106,672.62 30106,644.91"];
+	node55	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>N68d88d1fdf124c9498e9d5c82b8ff4dc</B></td></tr><tr><td href='N68d88d1fdf124c9498e9d5c82b8ff4dc' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>N68d88d1fdf124c9498e9d5c82b8ff4dc</font></td></tr></table> >,
+		pos="31150,612.5",
+		shape=none,
+		width=4.0972];
+	node33 -> node55	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="31049,687.5",
+		pos="e,31115,634.56 30537,740.49 30735,725.18 30936,707.32 30980,695 31026,682.62 31073,658.51 31106,639.71"];
+	node34	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_water</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_water' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_water</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to wate&quot;</td></tr></table> >,
+		pos="2225.5,772",
+		shape=none,
+		width=7.2639];
+	node34 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="4173,687.5",
+		pos="e,7509.4,617.49 2418.4,740.49 2447.2,736.77 2476.6,733.42 2504.5,731 3234.5,667.57 3419.9,698.02 4152.5,680 5395.8,649.42 6878.1,\
+626.59 7499,617.64"];
+	node54	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200014</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200014' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200014</font></td></tr></table> >,
+		pos="2225.5,612.5",
+		shape=none,
+		width=3.9861];
+	node34 -> node54	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:sameAs</font> >,
+		lp="2255,687.5",
+		pos="e,2225.5,634.6 2225.5,740.26 2225.5,712.76 2225.5,672.62 2225.5,644.91"];
+	node13	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeWarmth</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeWarmth</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A warm temperature scale type&quot;</td></tr></table> >,
+		pos="766.5,772",
+		shape=none,
+		width=5.3056];
+	node35	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> >,
+		pos="1077.5,612.5",
+		shape=none,
+		width=14.708];
+	node13 -> node35	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="962,687.5",
+		pos="e,1017.1,644.1 826.83,740.45 878.68,714.19 953.46,676.32 1007.8,648.78"];
+	node35 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="10014,462.5",
+		pos="e,23089,314.24 1607.3,581.61 1613.1,581.4 1618.8,581.19 1624.5,581 6173.8,426.05 21527,324.27 23079,314.3"];
+	node16	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureScaleType</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureScaleType' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureScaleType</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A TemperatureLexeme can belong either to a hot scale or to a cold scale or to a # neutral scale (e.g. lukewarm)&quot;</td></tr></table> >,
+		pos="16544,772",
+		shape=none,
+		width=14.708];
+	node16 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="17705,687.5",
+		pos="e,20257,613.55 16966,740.48 17012,737.24 17058,734.03 17102,731 17343,714.34 17410,755.37 17644,695 17660,691.08 17661,683.6 17676,\
+680 17926,621.31 19696,614.31 20247,613.56"];
+	node16 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="17001,687.5",
+		pos="e,17219,634.53 16695,740.45 16846,710.03 17073,664.03 17209,636.56"];
+	node16 -> node35	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="5971,687.5",
+		pos="e,1607.3,643.4 16168,740.48 16108,736.59 16046,733.2 15988,731 14873,689.02 7062.1,703.58 5946.5,695 5706.4,693.15 1864.5,652.1 \
+1624.5,644 1622.2,643.92 1619.9,643.84 1617.5,643.76"];
+	node36	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasExampleText</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasExampleText' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasExampleText</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Each example has a translation text&quot;</td></tr></table> >,
+		pos="27604,772",
+		shape=none,
+		width=6];
+	node36 -> node2	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="26881,687.5",
+		pos="e,26497,644.01 27438,740.49 27416,736.93 27392,733.64 27370,731 27141,703.52 27082,722.21 26852,695 26813,690.27 26803,685.86 26764,\
+680 26680,667.69 26589,655.65 26507,645.27"];
+	node36 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="28021,687.5",
+		pos="e,28210,634.53 27740,740.45 27875,710.12 28078,664.31 28200,636.81"];
+	node36 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="29008,687.5",
+		pos="e,29957,623.19 27767,740.48 27791,736.78 27815,733.45 27838,731 28229,689.82 28329,714.54 28722,695 29165,672.89 29689,640.31 29947,\
+623.84"];
+	node37 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="19895,687.5",
+		pos="e,20257,632.99 19415,740.49 19660,709.22 20034,661.42 20247,634.26"];
+	node37 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="19759,687.5",
+		pos="e,20257,625.78 19345,740.48 19456,721.32 19603,697.1 19734,680 19909,657.23 20110,638.39 20247,626.65"];
+	node37 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="18306,687.5",
+		pos="e,17423,634.56 18846,740.47 18636,721.57 18357,697.62 18110,680 17832,660.12 17761,678.05 17484,644 17467,641.97 17450,639.27 17433,\
+636.32"];
+	node38	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_NonOriented</font></td></tr></table> >,
+		pos="38642,772",
+		shape=none,
+		width=7.4861];
+	node38 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="38089,687.5",
+		pos="e,37715,644.05 38491,750 38447,743.85 38398,737.13 38354,731 38141,701.79 37899,668.94 37725,645.41"];
+	node39 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="31268,462.5",
+		pos="e,23322,314.08 36332,591.12 36098,587.4 35854,583.82 35626,581 35565,580.26 31345,571.48 31290,545 31233,516.61 31258,460.44 31200,\
+431 30747,198.52 30564,393.81 30054,380 28672,342.54 24148,318.25 23332,314.13"];
+	node40	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasSemanticDomain</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasSemanticDomain' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasSemanticDomain</font></td></tr></table> >,
+		pos="17376,772",
+		shape=none,
+		width=4.2361];
+	node40 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="17809,687.5",
+		pos="e,20257,614.25 17463,749.96 17490,743.6 17520,736.77 17548,731 17634,712.96 17658,719.29 17742,695 17760,690 17763,683.62 17780,\
+680 18021,631.11 19711,617.44 20247,614.31"];
+	node40 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="14415,687.5",
+		pos="e,8081.7,616.88 17298,749.93 17267,742.44 17230,734.91 17196,731 17139,724.27 9682.4,635.8 8091.8,617"];
+	node40 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="17339,687.5",
+		pos="e,17317,634.51 17354,749.71 17341,735.61 17326,715.91 17318,695 17313,678.97 17314,660.16 17316,644.65"];
+	node41	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasPersFeelingConstruction</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasPersFeelingConstruction' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasPersFeelingConstruction</font></td></tr></table> >,
+		pos="32854,772",
+		shape=none,
+		width=4.9861];
+	node41 -> node9	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="32709,687.5",
+		pos="e,32574,644.04 32808,749.92 32751,723.94 32652,679.43 32583,648.34"];
+	node41 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="27621,687.5",
+		pos="e,17418,634.55 32769,749.95 32734,742.42 32694,734.85 32656,731 32098,673.11 28162,716.65 27600,695 27505,691.33 27482,683.51 27386,\
+680 26837,659.75 18031,696.42 17484,644 17465,642.27 17446,639.49 17428,636.31"];
+	node41 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="33103,687.5",
+		pos="e,36332,632.84 32894,749.9 32937,727.59 33011,693.76 33078,680 33217,651.88 35484,646.16 35626,644 35851,640.57 36091,636.75 36322,\
+633"];
+	node42	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureSystemValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms or peripheral terms&quot;</td></tr></table> >,
+		pos="39522,612.5",
+		shape=none,
+		width=5.7639];
+	node42 -> node7	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="35723,462.5",
+		pos="e,23322,313.85 39314,603.51 39140,596.97 38885,587.73 38662,581 35085,472.84 34191,440.73 30612,380 27662,329.92 24049,316.19 23332,\
+313.88"];
+	node43	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasComment</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasComment' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasComment</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;This is a temperature ontology specific comment, as opposed to the general rdfs:comment.&quot;</td></tr></table> >,
+		pos="29090,772",
+		shape=none,
+		width=12.069];
+	node43 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="27250,687.5",
+		pos="e,20562,614.36 28773,740.5 28727,736.83 28681,733.51 28636,731 28322,713.16 27531,748.32 27222,695 27200,691.36 27197,683.48 27176,\
+680 27007,652.44 21588,620.22 20573,614.42"];
+	node43 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="28407,687.5",
+		pos="e,28317,634.55 28759,740.48 28584,723.41 28401,703.83 28382,695 28358,683.23 28338,660.93 28323,642.63"];
+	node43 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="29680,687.5",
+		pos="e,29971,634.54 29286,740.49 29484,709.9 29784,663.51 29961,636.08"];
+	node44	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_Other</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_Other</font></td></tr></table> >,
+		pos="39136,772",
+		shape=none,
+		width=5.2361];
+	node44 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="38635,687.5",
+		pos="e,38036,644.01 39038,749.97 39004,743.09 38965,735.94 38928,731 38639,691.27 38314,663.35 38046,644.72"];
+	node46	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeColdness</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeColdness</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A cold temperature scale type &quot;</td></tr></table> >,
+		pos="1189.5,772",
+		shape=none,
+		width=5.4306];
+	node46 -> node35	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="1154,687.5",
+		pos="e,1099.3,644.16 1167.6,740.26 1149.8,715.22 1124.6,679.7 1105.3,652.63"];
+	node49	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExperiencerOriented</font></td></tr></table> >,
+		pos="39648,772",
+		shape=none,
+		width=7.9861];
+	node49 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="38957,687.5",
+		pos="e,38172,644.01 39499,749.98 39449,743.32 39393,736.31 39342,731 38959,691.62 38531,663.43 38182,644.55"];
+	node51	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_ExpertumOriented</font></td></tr></table> >,
+		pos="36890,772",
+		shape=none,
+		width=7.7361];
+	node51 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="37246,687.5",
+		pos="e,37372,644.04 36970,749.92 37070,723.47 37244,677.78 37362,646.64"];
+	node55 -> node17	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:oneOf</font> >,
+		lp="31346,537.5",
+		pos="e,31403,494.12 31195,590.45 31246,566.5 31332,527.02 31393,498.43"];
+	node72	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Datatype</B></td></tr><tr><td href='http://www.w3.org/2000/01/rdf-schema#Datatype' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2000/01/rdf-schema#Datatype</font></td></tr></table> >,
+		pos="30912,462.5",
+		shape=none,
+		width=4.0694];
+	node55 -> node72	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="31059,537.5",
+		pos="e,30946,484.71 31116,590.45 31073,564.06 31000,518.8 30954,490.06"];
+	node0	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasTemperatureSystemCentralityValue</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasTemperatureSystemCentralityValue</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature term is domain CENTRAL or domain PERIPHERAL&quot;</td></tr></table> >,
+		pos="26028,772",
+		shape=none,
+		width=12.639];
+	node0 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="24743,687.5",
+		pos="e,20562,613.27 25696,740.48 25649,736.86 25601,733.55 25556,731 23595,620.79 21210,613.2 20572,613.27"];
+	node0 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="21124,687.5",
+		pos="e,17418,634.5 25707,740.48 25656,736.64 25604,733.27 25556,731 24567,685.28 22093,712.01 21104,695 20850,690.64 20787,684.83 20534,\
+680 20195,673.54 17821,677.67 17484,644 17466,642.21 17447,639.44 17428,636.29"];
+	node0 -> node42	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="36914,687.5",
+		pos="e,39314,622 26354,740.48 26406,736.59 26460,733.2 26510,731 27512,687.5 34532,705.17 35534,695 36925,680.89 37273,680 38662,644 \
+38881,638.35 39130,629.2 39304,622.39"];
+	node56	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasAdditionalTerms</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasAdditionalTerms' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasAdditionalTerms</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;We want to provide a text (string) variable to enter any additional info on temperatures terms that are not important enough to get their own entry in the semantic database. English exampless might be “torrid, “steaming&quot;</td></tr></table> >,
+		pos="31664,772",
+		shape=none,
+		width=27.083];
+	node56 -> node9	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="32164,687.5",
+		pos="e,32343,644.05 31827,740.49 31972,713.32 32184,673.69 32333,645.95"];
+	node56 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="28594,687.5",
+		pos="e,28379,634.56 30956,740.49 30860,736.94 30763,733.65 30670,731 30437,724.3 28799,737.7 28570,695 28550,691.45 28547,686.09 28528,\
+680 28483,664.86 28431,649.48 28389,637.34"];
+	node56 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="30639,687.5",
+		pos="e,30220,634.5 31123,740.49 30960,728.95 30782,713.91 30618,695 30485,679.59 30334,654.52 30230,636.25"];
+	node58	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AnnotationProperty</B></td></tr><tr><td href='http://www.w3.org/2002/07/owl#AnnotationProperty' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2002/07/owl#AnnotationProperty</font></td></tr></table> >,
+		pos="30810,612.5",
+		shape=none,
+		width=4.3194];
+	node56 -> node58	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="30955,687.5",
+		pos="e,30835,634.54 31206,740.46 31092,729.01 30988,714.03 30934,695 30900,682.84 30866,659.5 30843,640.9"];
+	node47	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_tactile</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_tactile' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_tactile</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Properties or states of particular concrete entities, carriers of properties, and align with property concepts in general (‘dark’, ‘big’, ‘sharp’, etc.)&quot;</td></tr></table> >,
+		pos="8798.5,772",
+		shape=none,
+		width=19.403];
+	node47 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="8318,687.5",
+		pos="e,7990.1,644.05 8604.2,740.49 8430.5,713.21 8176.8,673.37 8000,645.62"];
+	node29	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasWarmHotCollapse</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasWarmHotCollapse' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasWarmHotCollapse</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;An important distinction is whether a temperature system collapses two levels on the warmer scale (warm+cold in one), or if it keeps them separate (warm; cold). This can be either 1 (True, yes theere is a collapse) or 0 (False, there is no collapse)&quot;</td></tr></table> >,
+		pos="35476,772",
+		shape=none,
+		width=30.514];
+	node29 -> node9	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="34266,687.5",
+		pos="e,33244,644.01 35012,740.48 34720,721.79 34335,698.07 33994,680 33754,667.22 33491,654.93 33254,644.46"];
+	node29 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="33728,687.5",
+		pos="e,30256,623.86 34854,740.5 34416,720.16 33816,694.57 33288,680 32110,647.53 31814,685.86 30636,644 30512,639.58 30371,631.32 30266,\
+624.52"];
+	node66	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>boolean</B></td></tr><tr><td href='http://www.w3.org/2001/XMLSchema#boolean' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/2001/XMLSchema#boolean</font></td></tr></table> >,
+		pos="35476,612.5",
+		shape=none,
+		width=3.6528];
+	node29 -> node66	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="35501,687.5",
+		pos="e,35476,634.6 35476,740.26 35476,712.76 35476,672.62 35476,644.91"];
+	node57	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Oher POS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_Other' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_Other</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;For each instance of OtherPOS Consider adding to the TemperatureLexeme&#x27;s rdfs:comment some text /rdfs:comment to add info on what this OtherPOS actually is&quot;</td></tr></table> >,
+		pos="14008,941",
+		shape=none,
+		width=19.75];
+	node60	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>partOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#partOfSpeech</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme has a partOfSpeech (note lower case p) property, importinh it from the lexinfo ontology. Very relevant subclasses of the class PartOfSpeech (note capital p) include /lexinfo#NounPOS, /lexinfo#VerbPOS, /lexinfo#AdjectivePOS&quot;</td></tr></table> >,
+		pos="14738,772",
+		shape=none,
+		width=31.319];
+	node57 -> node60	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="14415,856.5",
+		pos="e,14604,803.54 14141,909.47 14269,880.11 14463,835.87 14594,805.78"];
+	node60 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="17607,687.5",
+		pos="e,20257,613.41 15582,740.49 15687,737.08 15792,733.83 15892,731 16076,725.82 17368,736.92 17546,695 17562,691.42 17563,683.59 17578,\
+680 17838,619.11 19683,613.65 20246,613.41"];
+	node60 -> node31	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="15889,687.5",
+		pos="e,17179,618.42 15078,740.48 15303,721.15 15603,696.75 15868,680 16342,650.12 16904,628.29 17169,618.78"];
+	node68	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PartOfSpeech</B></td></tr><tr><td href='http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.lexinfo.net/ontology/3.0/lexinfo#PartOfSpeech</font></td></tr></table> >,
+		pos="14738,612.5",
+		shape=none,
+		width=4.9861];
+	node60 -> node68	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="14762,687.5",
+		pos="e,14738,634.6 14738,740.26 14738,712.76 14738,672.62 14738,644.91"];
+	node24	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>hasDerivation</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/hasDerivation' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/hasDerivation</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Defines that ex:TemperatureLexeme can be derived from some other word&quot;</td></tr></table> >,
+		pos="26996,772",
+		shape=none,
+		width=9.8889];
+	node24 -> node1	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:domain</font> >,
+		lp="25881,687.5",
+		pos="e,20562,615.13 26730,740.5 26691,736.81 26651,733.48 26614,731 25800,677.3 25595,697.53 24780,680 23138,644.66 21148,621.54 20572,\
+615.24"];
+	node24 -> node22	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdfs:range</font> >,
+		lp="27753,687.5",
+		pos="e,28175,629.02 27250,740.49 27523,707.61 27947,656.47 28165,630.25"];
+	node24 -> node26	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="28503,687.5",
+		pos="e,29957,614.4 27259,740.5 27296,736.86 27334,733.54 27370,731 27607,714.39 28203,736.15 28436,695 28458,691.27 28461,683.81 28482,\
+680 28760,630.04 29594,617.56 29947,614.48"];
+	node48	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_QR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_QR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_QR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> >,
+		pos="10678,772",
+		shape=none,
+		width=31.778];
+	node48 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="9257,687.5",
+		pos="e,8081.8,629.15 10119,740.49 9513.3,707.38 8568.6,655.75 8091.9,629.7"];
+	node67	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>nil</B></td></tr><tr><td href='http://www.w3.org/1999/02/22-rdf-syntax-ns#nil' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://www.w3.org/1999/02/22-rdf-syntax-ns#nil</font></td></tr></table> >,
+		pos="31748,22",
+		shape=none,
+		width=4.1528];
+	node61 -> node67	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:rest</font> >,
+		lp="31767,87.5",
+		pos="e,31748,44.2 31748,130.76 31748,108.06 31748,77.258 31748,54.399"];
+	node23	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_air</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_air' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_air</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Temperature terms related specifically to ai&quot;</td></tr></table> >,
+		pos="1674.5,772",
+		shape=none,
+		width=7.0278];
+	node23 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="3045,687.5",
+		pos="e,7509.4,614.17 1864.8,740.47 1891.9,736.85 1919.3,733.54 1945.5,731 2423.3,684.56 2544.6,694.68 3024.5,680 4717.6,628.2 6749.8,\
+616.72 7499.3,614.2"];
+	node63	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ENVO_09200001</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/ENVO_09200001' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/ENVO_09200001</font></td></tr></table> >,
+		pos="1786.5,612.5",
+		shape=none,
+		width=3.9861];
+	node23 -> node63	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:sameAs</font> >,
+		lp="1767,687.5",
+		pos="e,1771.5,634.6 1696.4,740.26 1716.4,712.15 1745.7,670.84 1765.5,643.09"];
+	node45	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_general</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_general' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_general</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;a non-domain specific temperatur&quot;</td></tr></table> >,
+		pos="13370,772",
+		shape=none,
+		width=5.6528];
+	node45 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="12832,687.5",
+		pos="e,8081.8,614.82 13211,740.48 13190,736.98 13169,733.7 13148,731 12885,696.06 12818,693.2 12552,680 11678,636.54 8991,619.46 8092,\
+614.87"];
+	node69	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PATO_0000146</B></td></tr><tr><td href='http://purl.obolibrary.org/obo/PATO_0000146' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://purl.obolibrary.org/obo/PATO_0000146</font></td></tr></table> >,
+		pos="17642,612.5",
+		shape=none,
+		width=3.9028];
+	node45 -> node69	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>owl:sameAs</font> >,
+		lp="17512,687.5",
+		pos="e,17592,634.6 13520,740.48 13543,736.59 13568,733.21 13592,731 13805,710.85 17237,737.98 17446,695 17463,691.52 17466,686.66 17482,\
+680 17515,666.29 17552,651 17582,638.54"];
+	node27	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Peripheral Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemPeripheral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemPeripheral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Peripheral terms&quot;</td></tr></table> >,
+		pos="40154,772",
+		shape=none,
+		width=5.0694];
+	node27 -> node42	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="39858,687.5",
+		pos="e,39644,644.04 40031,740.45 39923,713.46 39765,674.21 39654,646.51"];
+	node64	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>StateVerbPOS</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/POS_StateVerb' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/POS_StateVerb</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;the lexinfo ontology does not define State verbs, nor does it have a general “other POS” option, so we add those her&quot;</td></tr></table> >,
+		pos="15304,941",
+		shape=none,
+		width=15.278];
+	node64 -> node60	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="15059,856.5",
+		pos="e,14841,803.61 15201,909.47 15102,880.33 14953,836.55 14851,806.48"];
+	node50	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient_NR</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient_NR' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient_NR</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;temperatures related to certain circumstances. Quasi-referential ambient temperature terms involve some kind of referent (the weather was cold, the room was cold), in contrast with non-referential (NR) ambient temperature terms that do not (it was cold in the room)&quot;</td></tr></table> >,
+		pos="3687.5,772",
+		shape=none,
+		width=32.347];
+	node50 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="4368,687.5",
+		pos="e,7509.4,614.68 3866.9,740.45 3999.2,719.33 4184,692.8 4347.5,680 4955.6,632.38 6779.8,618.44 7499.2,614.73"];
+	node70	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_IntransitiveStrategy_ExpertumOriented</font></td></tr></table> >,
+		pos="37488,772",
+		shape=none,
+		width=7.9028];
+	node70 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="37509,687.5",
+		pos="e,37488,644.12 37488,749.76 37488,725.42 37488,684.98 37488,654.46"];
+	node14	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Central Term</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureSystemCentral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureSystemCentral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Central terms&quot;</td></tr></table> >,
+		pos="40546,772",
+		shape=none,
+		width=4.8194];
+	node14 -> node42	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="40147,687.5",
+		pos="e,39729,639.04 40404,740.46 40387,737.11 40370,733.87 40354,731 40146,694.75 39908,661.98 39739,640.32"];
+	node32	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>TemperatureScaleTypeNeutral</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/TemperatureScaleTypeNeutral</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;A neutral temperature scale type (e.g. lukewarm)&quot;</td></tr></table> >,
+		pos="269.5,772",
+		shape=none,
+		width=7.4861];
+	node32 -> node35	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="743,687.5",
+		pos="e,920.84,644.04 426.25,740.45 565.52,713.3 768.48,673.74 910.71,646.01"];
+	node53	[color=black,
+		height=0.875,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>temperature_ambient</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/temperature_ambient' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/temperature_ambient</font></td></tr><tr><td align='left'>rdfs:comment</td><td align='left'>&quot;Ambient temperatures  relate to circumstances or places&quot;</td></tr></table> >,
+		pos="5186.5,772",
+		shape=none,
+		width=8.2917];
+	node53 -> node20	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="6216,687.5",
+		pos="e,7509.5,621.29 5411.1,740.47 5441.8,736.92 5472.9,733.63 5502.5,731 6217.8,667.49 7061.8,635.18 7499.2,621.61"];
+	node71	[color=black,
+		height=0.61111,
+		label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PersFeelingConstruction_TransitiveStrategy_NonOriented</B></td></tr><tr><td href='https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://w3id.org/def/temp_ont/PersFeelingConstruction_TransitiveStrategy_NonOriented</font></td></tr></table> >,
+		pos="38072,772",
+		shape=none,
+		width=7.3194];
+	node71 -> node39	[color=BLACK,
+		label=< <font point-size='10' color='#336633'>rdf:type</font> >,
+		lp="37801,687.5",
+		pos="e,37602,644.04 37994,749.92 37896,723.49 37727,677.88 37612,646.73"];
+}
